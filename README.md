@@ -1,15 +1,29 @@
-# Monday Delivery Control
+# Monday delivery control
 
-A focused, self-contained demonstration accompanying the Head of Operations & Delivery practical assessment.
+A focused operational example supporting the Head of Operations & Delivery practical assessment.
 
-**Open [the working control](index.html)** or read [the assessment response](assessment.md).
+The deliverable is a **Monday founder review across six fictional engagements**. It brings together confirmed client commitments, consultant allocation, mobilisation evidence, forecast direct costs and the decisions requiring ownership. It is intentionally small enough for a founder-led consultancy to maintain.
 
-Six fictional engagements. Confirmed consultant overlap, unverified mobilisation, incomplete commercial records and separately held forecast margin exceptions. The data is wholly illustrative and does not represent The Jonah Group clients or financial position.
+## Review the material
 
-No third-party dependencies, backend, account or build step. Open `index.html` in a browser; choose Print for the A4 landscape founder report. The simulated decision controls do not confer real consultant or client approval.
+1. Read **[the assessment](assessment.md)** for the discovery questions, initial 90-day priorities and management rationale.
+2. Download or clone the repository and **open `index.html` locally** in a modern browser. No dependencies, login or server required.
+3. Use the example scenario controls to inspect allocation approval and a change in forecast direct cost, then reset to the initial view.
+4. Print in **A4 landscape** for the weekly founder report. The printed version excludes the scenario controls.
 
-**Commercial basis:** Direct delivery margin = (authorised fee - forecast direct delivery cost) / authorised fee; forecast cost = committed direct costs + remaining forecast direct cost. Not net profit or EBITDA. Unknown data does not become zero. Variations are excluded from authorised revenue until approved.
+The browser page is **not** automatically hosted by GitHub simply because its source is committed here.
 
-**Scope:** Interview demonstration only, not production-ready scheduling, accounting, approval or safety advice. No confidential data.
+## Operating rules
 
-**Verification:** Model arithmetic and decision invariants have been tested locally. Physical A4 print and cross-browser accessibility have not been independently certified. The source is deliberately compact to keep the exercise proportionate.
+- The six clients, people, dates, fees and costs are illustrative; no company internal records are used.
+- Consultant allocation has distinct **confirmed**, **tentative** and **proposed** states. A proposed replacement is not available for confirmed delivery until suitability and approvals are established.
+- A mobilisation prerequisite without evidence is not ready.
+- Commercial exposure remains visible independently of scheduling actions.
+- Forecast direct cost is committed direct cost plus forecast remaining direct cost. Forecast direct margin uses authorised fee only; it is neither net profit nor EBITDA. Unknown values remain unknown.
+- Commercial alert thresholds are examples for discussion, not company policy.
+
+## Scope and verification
+
+This is an interview demonstration, not a production booking, authorisation, finance or specialist methodology system. It has no persistent storage, client access or third-party integrations.
+
+Run **`node test.js`** for scenario and arithmetic checks. GitHub Actions runs the same verification when changes are submitted. Inspect browser print preview before using the page as a one-page landscape report.
