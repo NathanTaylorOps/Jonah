@@ -36,4 +36,4 @@
 
 **Deliberate exclusions:** No replacement CRM or accounting platform, automated consultant authority, detailed capability database or proprietary programme content. The first need is a shared decision routine and verified information, not another complex system.
 
-**Time disclosure:** The work was developed and refined across multiple sessions rather than a single timed 90-minute exercise. I have not recorded a reliable total duration and do not represent the work as having been completed within the requested timebox.
+**Time disclosure:** Approximately 105 minutes in total, around 15 minutes over the requested 90-minute guide.
