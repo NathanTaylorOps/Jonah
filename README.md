@@ -2,7 +2,7 @@
 
 A focused operational example supporting the Head of Operations & Delivery practical assessment.
 
-The deliverable is a **Monday founder review across six fictional engagements**. It brings together confirmed client commitments, consultant allocation, mobilisation evidence, forecast direct costs and the decisions requiring ownership. It is intentionally small enough for a founder-led consultancy to maintain.
+The deliverable is a **Monday founder review across six fictional engagements**. It brings together client commitments, consultant allocations, a four-week coverage outlook, verified mobilisation prerequisites, direct delivery cost forecasts and decisions requiring ownership. The outlook counts only recorded commitments; it does not imply unverified people are available or that blank weeks have spare capacity. It is intentionally small enough for a founder-led consultancy to maintain.
 
 ## Review the material
 
@@ -16,8 +16,8 @@ The browser page is **not** automatically hosted by GitHub simply because its so
 ## Operating rules
 
 - The six clients, people, dates, fees and costs are illustrative; no company internal records are used.
-- Consultant allocation has distinct **confirmed**, **tentative** and **proposed** states. A proposed replacement is not available for confirmed delivery until suitability and approvals are established.
-- A mobilisation prerequisite without evidence is not ready.
+- Consultant allocation has distinct **confirmed**, **tentative** and **proposed** states. Overlap is tested against time windows, not merely calendar dates. A proposed replacement is not available for confirmed delivery until suitability and approvals are established.
+- A mobilisation prerequisite without evidence is not ready. Site access, inductions, preparation, travel and any task-specific authorisations must be checked against the actual engagement; the demonstration does not imply universal statutory clearance requirements for all workshop facilitators.
 - Commercial exposure remains visible independently of scheduling actions.
 - Forecast direct cost is committed direct cost plus forecast remaining direct cost. Forecast direct margin uses authorised fee only; it is neither net profit nor EBITDA. Unknown values remain unknown.
 - Commercial alert thresholds are examples for discussion, not company policy.
@@ -26,4 +26,4 @@ The browser page is **not** automatically hosted by GitHub simply because its so
 
 This is an interview demonstration, not a production booking, authorisation, finance or specialist methodology system. It has no persistent storage, client access or third-party integrations.
 
-Run **`node test.js`** for scenario and arithmetic checks. GitHub Actions runs the same verification when changes are submitted. Inspect browser print preview before using the page as a one-page landscape report.
+Run **`node test.js`** for scenario and arithmetic checks. GitHub Actions runs the same verification when changes are submitted. Inspect browser print preview before using the page as a one-page landscape report. The separate PDF founder view is a reviewed, fixed snapshot of the starting scenario rather than an automatically synchronised export of subsequent interactive changes.
