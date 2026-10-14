@@ -2,7 +2,7 @@
 
 A focused, self-contained demonstration accompanying the Head of Operations & Delivery practical assessment.
 
-**Open [the working control](index.html)** or read [the assessment response](assessment.md).
+**Open [the interactive Monday view](https://nathantaylorops.github.io/Jonah/)** or read [the assessment response](assessment.md).
 
 Six fictional engagements. Confirmed consultant overlap, unverified mobilisation, incomplete commercial records and separately held forecast margin exceptions. The data is wholly illustrative and does not represent The Jonah Group clients or financial position.
 
@@ -13,3 +13,5 @@ No third-party dependencies, backend, account or build step. Open `index.html` i
 **Scope:** Interview demonstration only, not production-ready scheduling, accounting, approval or safety advice. No confidential data.
 
 **Verification:** Model arithmetic and decision invariants have been tested locally. Physical A4 print and cross-browser accessibility have not been independently certified. The source is deliberately compact to keep the exercise proportionate.
+
+**Presentation:** Founder decisions precede portfolio detail. Booking conflicts count unique overlapping pairs and show affected engagements. Scenario buttons are hypothetical; the cost increase applies only once.
