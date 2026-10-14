@@ -1,39 +1,45 @@
 # Head of Operations & Delivery | Practical assessment
-**The Jonah Group — Nathan Taylor**
+**The Jonah Group · Nathan Taylor · 13 October 2026**
 
 ## 1. Questions I would ask
 
-| Question | Who |
+I would start with the people currently holding delivery together, validate the six live engagements and establish which information can be trusted. I would not introduce another system before understanding the commitments and the decisions it needs to support.
+
+| Question | Who I would ask |
 |---|---|
-| For each live engagement, what exactly are we committed to deliver, by when, and who owns that commitment? | Founder; engagement leads |
-| Which dates and outcomes are contractual, confirmed, tentative or being negotiated? | Commercial lead; engagement leads |
-| Which consultants are suitable, approved and important to client continuity? | Senior consultants; programme leads |
-| How do preparation, travel and recovery affect real availability? | Facilitators; coordinator |
-| Where does handover from signed work to first delivery depend on memory? | Sales lead; coordinator |
-| Which site access, inductions, materials and client confirmations are mandatory before deployment? | Delivery leads; facilitators |
-| Where are authorised fees, direct cost baselines, commitments and remaining forecast costs held? | Finance; founder |
-| Who can approve reallocation, changed dates, scope variation or absorbed cost? | Founder; commercial lead |
-| Which recurring issues consume founder time and which can delivery leads resolve? | Founder; senior consultants |
-| What minimum controls help delivery without interfering with specialist judgement? | Senior consultants; contract facilitators |
+| What have we committed to deliver on each engagement, by when, and who owns the client outcome? | Founder and engagement leads |
+| Which sessions, milestones and scope are contracted, confirmed, tentative or changing? | Commercial lead and engagement leads |
+| Who is booked, available and suitable for each programme, and where is client continuity important? | Scheduling coordinator and senior consultants |
+| How much capacity is required for preparation, travel, delivery, follow-up and recovery? | Consultants and contract facilitators |
+| What information passes from agreement to delivery, and what currently depends on someone remembering it? | Commercial lead and delivery coordinator |
+| Which client access, induction, materials, travel and programme approvals must be verified before mobilisation? | Engagement leads and facilitators |
+| Where are authorised fees, agreed scope, committed direct costs and costs still to complete recorded? | Finance and commercial lead |
+| Who can approve changed resources, client dates, scope, additional cost and margin exceptions? | Founder and commercial lead |
+| What has needed last-minute founder intervention, caused rework or put a client commitment under pressure? | Founder, consultants and engagement leads |
+| Which quality and methodology decisions must remain with Jonah's specialists? | Senior consultants and founder |
 
-**Most important question:** For each live engagement, what exactly have we committed to deliver, by when, and who is accountable? Without that agreed baseline, a calendar is not a capacity plan, a mobilisation checklist lacks context, and a margin estimate may be measuring the wrong scope. The answer also distinguishes missing information from genuine resource constraints.
+**The most important question:** *For each live engagement, what exactly have we committed to deliver, by when, and who is accountable for making sure it happens?*
 
-## 2. First 90 days
+That is the operating baseline. Without it, a calendar is not a capacity plan, readiness cannot be confirmed and a margin forecast may relate to the wrong scope. It also separates three different problems: missing information, unclear accountability and genuine capacity constraints.
 
-**Days 1–15 — Establish a shared operating baseline.** Verify six engagement records against client commitments: scope, dates, lead, status, fee and available cost forecast. Introduce a short Monday founder review showing exceptions, decisions, owners and follow-up dates. Unknowns stay visible rather than being marked green.
+## 2. What I would establish in the first 90 days
 
-**Days 15–45 — Build forward deployment and mobilisation control.** Map confirmed and provisional specialist allocations, programme suitability, client continuity, preparation, travel and availability. Add a short readiness gate for site access, inductions, materials, logistics and client approval. Resolve conflicts with the relevant programme lead rather than substituting any available person.
+**Days 1–15 | One agreed engagement baseline and Monday review.** Confirm the six live scopes, delivery dates, accountable leads, consultant commitments and available commercial position with their owners. Use a short weekly founder review to address exceptions, decisions and due dates. Keep unverified items visible.
 
-**Days 46–90 — Embed commercial control and a repeatable cadence.** Compare agreed direct delivery cost with forecast at completion; escalate scope changes and margin deterioration early. Put clear ownership around variations and decisions, maintain minimum document/version control, and adjust the operating routine based on actual facilitator feedback.
+**Days 15–45 | Forward deployment and mobilisation control.** Build a practical view of confirmed and provisional allocation, suitability, continuity, preparation, travel and commitments over the next four weeks. Introduce a short readiness gate covering access, inductions, programme materials, client sign-off and logistics. Resolve clashes with delivery leads and specialist consultants; do not allocate simply on availability.
 
-**Why this order:** Reliable commitments and ownership first; capacity and readiness second; forecasting and standardisation once information has been tested. A dashboard alone does not create discipline. The team must be able to maintain it without growing administrative overhead.
+**Days 46–90 | Commercial forecast and repeatable handover.** Standardise the minimum won-to-delivery handover, identify scope changes before costs are incurred and compare direct cost-to-complete with the approved baseline. Set escalation rights and document/version control for agreed deliverables. Review the routine with facilitators; remove any field that adds work without improving a decision.
 
-## 3. Built example — Monday delivery control
+**Why this order:** Establish a trusted record first, then use it to manage capacity and readiness. Tighten forecasting and handover after the team has tested the controls in live work. The measure of success is fewer surprises and less dependence on individual memory, not more reports. Programme design and specialist safety judgements remain with the people qualified to make them.
 
-[Open the Monday delivery control](index.html). It shows six **fictional** engagements and prioritises three operational questions: whether the client commitment is deliverable, whether mobilisation is verified, and whether cost or scope has shifted. An overlapping confirmed consultant booking, unverified site access and a pressured delivery forecast drive explicit actions and ownership. A proposed alternative is not counted as confirmed until the illustrative approval condition is applied.
+## 3. Built example | Monday delivery control
 
-**Basis and assumptions:** All people, engagements, fees, dates and forecasts are synthetic. Forecast direct delivery margin = (authorised fee − committed and remaining forecast direct delivery costs) / authorised fee. The measure excludes allocated overhead, financing and tax; it is not net profit or EBITDA. Unapproved changes do not increase authorised fees. Unknown inputs produce an unknown result. Alert thresholds are examples for discussion, not company policy.
+The accompanying **`index.html`** is a standalone founder review of six **fictional** engagements. It shows upcoming client commitments, accountable leads and consultant allocations alongside mobilisation evidence, authorised fees, direct cost forecasts and the decisions that need action.
 
-**Deliberate exclusions:** No replacement CRM or accounting platform, automated consultant authority, detailed capability database or proprietary programme content. The first need is a shared decision routine and verified information, not another complex system.
+The example includes a confirmed allocation conflict, an unverified site-access requirement, an induction awaiting evidence, missing commercial inputs and an unapproved scope/cost change. A proposed substitute is kept separate from confirmed allocations until suitability, client acceptance and internal approval are modelled. Fixing a booking cannot clear an unrelated margin exception.
 
-**Time disclosure:** Record actual completion time before sending. This version was developed with a standalone browser prototype; no claim is made that earlier work or review occurred within the assessment timebox.
+**Commercial basis:** Forecast direct delivery cost = committed direct cost + forecast remaining direct cost. Forecast direct delivery margin = (authorised engagement fee − forecast direct delivery cost) ÷ authorised fee. This measure excludes overhead allocation, finance costs and tax; it is not net profit or EBITDA. Unsigned variations do not increase authorised revenue and an unknown input is never counted as zero. Illustrative alert thresholds are not presented as Jonah policy.
+
+**Not built yet:** A replacement CRM or accounting platform; full facilitator competency and approval records; automated specialist advice; or a multi-user workflow. A reliable weekly view and clear responsibility are more useful at this stage than additional administration.
+
+**Assumptions and timing:** All client descriptors, people, dates and figures are fictional. The example was prepared and refined across more than one working session; active time was not recorded. I have not represented it as a 60-minute build.
