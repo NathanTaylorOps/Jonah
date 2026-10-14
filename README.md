@@ -16,7 +16,7 @@ The browser page is **not** automatically hosted by GitHub simply because its so
 ## Operating rules
 
 - The six clients, people, dates, fees and costs are illustrative; no company internal records are used.
-- Consultant allocation has distinct **confirmed**, **tentative** and **proposed** states. Overlap is tested against time windows, not merely calendar dates. A proposed replacement is not available for confirmed delivery until suitability and approvals are established.
+- Consultant allocation has distinct **confirmed**, **tentative** and **proposed** states. Overlap is tested against time-zone-qualified time windows and stable consultant identifiers, not merely calendar dates or display names. Example time windows use Australian Eastern Standard Time (UTC+10), and national deployment would need verified location-specific time zones, travel and recovery. A proposed replacement is not available for confirmed delivery until suitability and approvals are established.
 - A mobilisation prerequisite without evidence is not ready. Site access, inductions, preparation, travel and any task-specific authorisations must be checked against the actual engagement; the demonstration does not imply universal statutory clearance requirements for all workshop facilitators.
 - Commercial exposure remains visible independently of scheduling actions.
 - Forecast direct cost is committed direct cost plus forecast remaining direct cost. Forecast direct margin uses authorised fee only; it is neither net profit nor EBITDA. Unknown values remain unknown.
