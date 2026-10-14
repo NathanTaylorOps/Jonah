@@ -1,0 +1,18 @@
+const fs=require("node:fs"),assert=require("node:assert/strict"),vm=require("node:vm");
+const html=fs.readFileSync(__dirname+"/index.html","utf8"),script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const nodes={};for(const id of ["stats","engagements","decisions","approve","increase","reset","print"])nodes[id]={innerHTML:"",disabled:false,addEventListener(event,fn){this[event]=fn}};
+const document={getElementById(id){return nodes[id]}},context=vm.createContext({document,window:{print(){}},console});
+vm.runInContext(script,context);
+assert.equal((nodes.engagements.innerHTML.match(/<tr>/g)||[]).length,6);
+assert.match(nodes.engagements.innerHTML,/Sam Reed proposed; suitability\/client approval pending/);
+assert.match(nodes.stats.innerHTML,/Consultant collisions<\/small><b>2/);
+assert.match(nodes.engagements.innerHTML,/Site access unverified/);
+assert.match(nodes.engagements.innerHTML,/Unknown/);
+assert.match(nodes.decisions.innerHTML,/\$6,500 extra forecast cost/);
+nodes.approve.click();assert.match(nodes.stats.innerHTML,/Consultant collisions<\/small><b>0/);
+assert.match(nodes.decisions.innerHTML,/extra forecast cost/);
+nodes.increase.click();assert.match(nodes.decisions.innerHTML,/\$10,500 extra forecast cost/);
+assert.match(nodes.engagements.innerHTML,/11\.0%/);
+nodes.reset.click();assert.match(nodes.stats.innerHTML,/Consultant collisions<\/small><b>2/);
+assert.match(html,/@page\{size:A4 landscape/);
+console.log("PASS: six records; overlapping booking; provisional alternative; separate commercial exception; 19% to 11% margin; reset; A4 CSS");
