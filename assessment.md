@@ -16,7 +16,7 @@ I would start with the people currently holding delivery together, validate the 
 | Where are authorised fees, agreed scope, committed direct costs and costs still to complete recorded? | Finance and commercial lead |
 | Who can approve changed resources, client dates, scope, additional cost and margin exceptions? | Founder and commercial lead |
 | What has needed last-minute founder intervention, caused rework or put a client commitment under pressure? | Founder, consultants and engagement leads |
-| Which quality and methodology decisions must remain with Jonah's specialists? | Senior consultants and founder |
+| Which methodology decisions stay with Jonah's specialists, and how will sustained client outcomes be assessed? | Senior consultants and founder |
 
 **The most important question:** *For each live engagement, what exactly have we committed to deliver, by when, and who is accountable for making sure it happens?*
 
@@ -26,20 +26,20 @@ That is the operating baseline. Without it, a calendar is not a capacity plan, r
 
 **Days 1–15 | One agreed engagement baseline and Monday review.** Confirm the six live scopes, delivery dates, accountable leads, consultant commitments and available commercial position with their owners. Use a short weekly founder review to address exceptions, decisions and due dates. Keep unverified items visible.
 
-**Days 15–45 | Forward deployment and mobilisation control.** Build a practical view of confirmed and provisional allocation, suitability, continuity, preparation, travel and commitments over the next four weeks. Introduce a short readiness gate covering access, inductions, programme materials, client sign-off and logistics. Resolve clashes with delivery leads and specialist consultants; do not allocate simply on availability.
+**Days 15–45 | Forward deployment and mobilisation control.** Build a practical view of confirmed and provisional allocation, suitability, continuity, preparation, travel and commitments over the next four weeks. Introduce a short readiness gate for site access, induction evidence, programme materials, client approval and travel clearance. Resolve clashes with delivery leads and specialist consultants; do not allocate simply on availability.
 
-**Days 46–90 | Commercial forecast and repeatable handover.** Standardise the minimum won-to-delivery handover, identify scope changes before costs are incurred and compare direct cost-to-complete with the approved baseline. Set escalation rights and document/version control for agreed deliverables. Review the routine with facilitators; remove any field that adds work without improving a decision.
+**Days 46–90 | Commercial forecast and repeatable handover.** Standardise the minimum won-to-delivery handover, identify scope changes before costs are incurred and compare direct cost-to-complete with the approved baseline. Set escalation rights, control document versions and agree how client outcomes will be checked after delivery. Review the routine with facilitators; remove any field that adds work without improving a decision.
 
 **Why this order:** Establish a trusted record first, then use it to manage capacity and readiness. Tighten forecasting and handover after the team has tested the controls in live work. The measure of success is fewer surprises and less dependence on individual memory, not more reports. Programme design and specialist safety judgements remain with the people qualified to make them.
 
 ## 3. Built example | Monday delivery control
 
-The accompanying **`index.html`** is a standalone founder review of six **fictional** engagements. It shows upcoming client commitments, accountable leads and consultant allocations alongside mobilisation evidence, authorised fees, direct cost forecasts and the decisions that need action.
+The accompanying **`index.html`** is a standalone founder review of six **fictional** engagements. It shows client commitments, accountable leads and allocations alongside a four-week commitment-coverage outlook, mobilisation evidence, authorised fees, direct cost forecasts and decisions. Full workforce capacity cannot be stated without verified availability.
 
-The example includes a confirmed allocation conflict, an unverified site-access requirement, an induction awaiting evidence, missing commercial inputs and an unapproved scope/cost change. A proposed substitute is kept separate from confirmed allocations until suitability, client acceptance and internal approval are modelled. Fixing a booking cannot clear an unrelated margin exception.
+The example includes a confirmed allocation conflict, an unverified site-access requirement, an induction awaiting evidence, missing commercial inputs and an unapproved scope/cost change. My illustrative recommendation is to retain J01's programme-continuity booking, verify the suitability, fee and client acceptance of an alternative for J02, and obtain founder approval. If rejected, J02 needs a client-agreed revised date. Availability is not proof of suitability. Fixing a booking cannot clear an unrelated margin exception.
 
 **Commercial basis:** Forecast direct delivery cost = committed direct cost + forecast remaining direct cost. Forecast direct delivery margin = (authorised engagement fee − forecast direct delivery cost) ÷ authorised fee. This measure excludes overhead allocation, finance costs and tax; it is not net profit or EBITDA. Unsigned variations do not increase authorised revenue and an unknown input is never counted as zero. Illustrative alert thresholds are not presented as Jonah policy.
 
 **Not built yet:** A replacement CRM or accounting platform; full facilitator competency and approval records; automated specialist advice; or a multi-user workflow. A reliable weekly view and clear responsibility are more useful at this stage than additional administration.
 
-**Assumptions and timing:** All client descriptors, people, dates and figures are fictional. The example was prepared and refined across more than one working session; active time was not recorded. I have not represented it as a 60-minute build.
+**Assumptions and timing:** All client descriptors, people, dates and figures are fictional. Prepared and refined over several sessions rather than a single timed 90-minute sitting. Total active time was not recorded, so a precise duration cannot credibly be stated.
