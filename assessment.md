@@ -34,7 +34,7 @@ That is the operating baseline. Without it, a calendar is not a capacity plan, r
 
 ## 3. Built example | Monday delivery control
 
-The accompanying **`index.html`** is a standalone founder review of six **fictional** engagements. It shows client commitments, accountable leads and allocations alongside a four-week commitment-coverage outlook, mobilisation evidence, authorised fees, direct cost forecasts and decisions. Full workforce capacity cannot be stated without verified availability.
+The accompanying **one-page landscape founder report** is the completed Monday view for six **fictional** engagements. A separate standalone HTML example allows two illustrative decisions to be explored. Both present client commitments, accountable leads and allocations, four-week booking coverage, mobilisation evidence, authorised fees, direct-cost forecasts and actions. A booking without a time clash is not proof of readiness or spare workforce capacity.
 
 The example includes a confirmed allocation conflict, an unverified site-access requirement, an induction awaiting evidence, missing commercial inputs and an unapproved scope/cost change. My illustrative recommendation is to retain J01's programme-continuity booking, verify the suitability, fee and client acceptance of an alternative for J02, and obtain founder approval. If rejected, J02 needs a client-agreed revised date. Availability is not proof of suitability. Fixing a booking cannot clear an unrelated margin exception.
 
