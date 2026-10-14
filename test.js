@@ -1,7 +1,7 @@
 const fs=require("node:fs"),assert=require("node:assert/strict"),vm=require("node:vm");
 const html=fs.readFileSync(__dirname+"/index.html","utf8"),match=html.match(/<script>([\s\S]*?)<\/script>/);
 assert.ok(match,"inline application script present");
-const nodes={};for(const id of ["stats","engagements","decisions","approve","increase","reset","print"])
+const nodes={};for(const id of ["stats","capacity","engagements","decisions","approve","increase","reset","print"])
  nodes[id]={innerHTML:"",disabled:false,addEventListener(event,fn){this[event]=fn}};
 const document={getElementById(id){assert.ok(nodes[id],"known element "+id);return nodes[id]}};
 const context=vm.createContext({document,window:{print(){}},console});
@@ -12,6 +12,13 @@ assert.equal(evaluate("new Set(source.map(e=>e.id)).size"),6);
 assert.equal((nodes.engagements.innerHTML.match(/<tr>/g)||[]).length,6);
 assert.match(nodes.stats.innerHTML,/Bookings affected<\/small><b>2/);
 assert.match(nodes.stats.innerHTML,/5 confirmed \/ 1 tentative bookings/);
+assert.match(nodes.capacity.innerHTML,/Week of 12 Oct/);
+assert.match(nodes.capacity.innerHTML,/Week of 02 Nov/);
+assert.equal(evaluate("coverage()[0].clear"),1);
+assert.equal(evaluate("coverage()[0].conflict"),2);
+assert.equal(evaluate("coverage()[1].clear"),2);
+assert.equal(evaluate("coverage()[1].tentative"),1);
+assert.equal(evaluate("coverage()[2].recorded"),0);
 assert.equal(evaluate("overlaps(source[0],source[1])"),true,"real clash");
 assert.equal(evaluate("overlaps(source[3],source[4])"),false,"different consultant");
 assert.equal(evaluate("overlaps({...source[0],booking:'Tentative'},source[1])"),false,"tentative excluded");
@@ -20,12 +27,16 @@ assert.match(nodes.engagements.innerHTML,/Sam Reed proposed; suitability\/client
 assert.match(nodes.engagements.innerHTML,/Site access unverified/);
 assert.match(nodes.engagements.innerHTML,/Induction unverified/);
 assert.match(nodes.decisions.innerHTML,/J05 · Induction not verified/);
+assert.match(nodes.decisions.innerHTML,/retain Casey Lee on J01/);
+assert.match(nodes.decisions.innerHTML,/If rejected, agree a revised rail session date/);
 assert.match(nodes.engagements.innerHTML,/Unknown/);
 assert.equal(evaluate("margin(source[5])"),19);
 assert.match(nodes.decisions.innerHTML,/direct margin 32\.0% → 19\.0%/);
 assert.match(nodes.decisions.innerHTML,/\$6,500 over cost baseline/);
 nodes.approve.click();
 assert.match(nodes.stats.innerHTML,/Bookings affected<\/small><b>0/);
+assert.equal(evaluate("coverage()[0].conflict"),0);
+assert.equal(evaluate("coverage()[0].clear"),3);
 assert.match(nodes.engagements.innerHTML,/Initial allocation: Casey Lee; approved example: Sam Reed/);
 assert.match(nodes.decisions.innerHTML,/J06 ·/, "commercial exception retained after schedule decision");
 assert.match(nodes.engagements.innerHTML,/Margin pressure/);
